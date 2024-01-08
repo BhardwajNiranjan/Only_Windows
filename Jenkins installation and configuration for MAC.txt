@@ -1,0 +1,33 @@
+Open Terminal and Past below command with local user only.
+
+1.    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+After Completion install Jenkins with Below Command.
+
+2.     brew install jenkins-lts
+
+Then Install JAVA
+
+3.     brew install java
+
+After these start jenkins service with below command.
+
+4.     brew services start jenkins-lts
+
+
+After all these process go to browser and use below url for accessing Jenkins.
+
+5.   http://localhost:8080
+
+
+Again go to Terminal and use below command to go in the key Directory 
+to see the key and putting key in jenkins portal over the local host.
+
+6.   cd cat /Users/ijs/.jenkins/secrets/initialAdminPassword   (copy the key and past over jenkins portal)
+
+
+Now your Jenkins is ready to use. now you can add plugins and start your work.
+
+
+
+
